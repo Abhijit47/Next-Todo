@@ -58,7 +58,7 @@ export default function LeftColumn() {
                             autoComplete="off"
                             required
                             className="block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
-                            defaultValue={"Todo title"}
+                            defaultValue={""}
                           />
                         </div>
                       </div>
@@ -76,9 +76,7 @@ export default function LeftColumn() {
                             name="description"
                             id="description"
                             className="block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                            defaultValue={
-                              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, sed?"
-                            }
+                            defaultValue={""}
                           />
                         </div>
                       </div>
